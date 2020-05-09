@@ -7,6 +7,7 @@
 		"clean-locks": "rm -rf ./packages/*/yarn.lock",
 		"bootstrap": "lerna bootstrap",
 		"reset": "yarn clean && yarn clean-locks && yarn bootstrap",
+		"pod": "cd packages/mobile/ios && pod install",
 		"web": "cd packages/web/ && yarn start",
 		"ios": "cd packages/mobile/ && yarn ios",
 		"android": "cd packages/mobile/ && yarn android"

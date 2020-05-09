@@ -17,6 +17,11 @@ $ npm i -g lerna
 $ yarn bootstrap
 ```
 
+### Install Pods file
+```
+$ yarn pod
+```
+
 ### Start Web Version
 ```
 $ yarn web
